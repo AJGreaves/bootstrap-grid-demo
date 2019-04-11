@@ -13,8 +13,18 @@ h1 {
     color: red;
 }
 
-li {
+li, p {
     font-size: 1.5rem;
+}
+
+.structure-p {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+/* navigation */
+.nav-item {
+    font-size: 1rem;
 }
 
 /* containers */
@@ -28,29 +38,26 @@ li {
 
 .basics-container {
     padding: 1rem;
-    border: 2px solid blue;
-    background-color: #BEE;
     font-size: 1.5rem;
 }
 
 .basics-row {
     font-size: 1.5rem;
     padding: 1rem;
-    border: 2px solid green;
-    background-color: #D3F3C8;
+    margin: 1rem;
+}
+
+.row {
+    margin: 0;
 }
 
 .basics-column {
     font-size: 1.5rem;
     padding: 1rem;
-    border: 2px solid black;
-    background-color: #fafafa;
     height: 200px;
-}
-
-.structure-section {
-    padding-top: 2rem;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 3px 2px rgba(0,0,0,0.24);
+    background-color: white;
+    color: black;
+    border: 2px solid #000;
 }
 
 .my-column {
@@ -74,7 +81,9 @@ li {
 }
 
 img {
-    margin: 2rem;
+    margin: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
 }
 
