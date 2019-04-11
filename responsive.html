@@ -43,83 +43,53 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 text-left">
                         <header>
-                            <h1 class="text-center mt-4">Columns</h1>
+                            <h1 class="text-center mt-4">The responsive grid</h1>
                         </header>
                         <ul>
-                            <li>Bootstrap columns come in 12 sizes</li>
-                            <li>A column width is set by giving it a number between 1 and 12</li>
-                            <li>A col-1 is one 12th of the width of its container</li>
-                            <li>A col-6 is six 12ths (one half) of the width of its container</li>
-                            <li>A col-12 is twelve 12ths and so full width of its container</li>
-                            <li>As you can see, having 12 different size choices gives you a multitude of different ways to arrange your columns on the screen</li>
+                            <li>The real magic of the bootstrap grid is that it is responsive to screen sizes.</li>
+                            <li>While two columns next to each other might look great on a desktop, the same layout would not look good on a narrow mobile screen.</li>
+                            <li>We can use bootstrap's built-in media queries to tell it what size our columns should be on different devices.</li>
+                            <li>We do this by adding one of the following to our column classes.</li>
+                            <ul>
+                                <li><span class="mono">sm</span> for small devices (landscape phones, 576px and up)</li>
+                                <li><span class="mono">md</span> for medium devices (tablets, 768px and up)</li>
+                                <li><span class="mono">lg</span> for large devices (desktops, 992px and up)</li>
+                                <li><span class="mono">xl</span> for extra large devices (large desktops, 1200px and up)</li>
+                            </ul>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div class="wrapper m-0">
-            <div class="container-fluid column-sizes">
-                <div class="row">
-                    <div class="col-1 columns-column b-black">
-                        <p>col-1</p>
+            
+            <div class="container-fluid">
+                <div class="row text-left">
+                    <div class="col-12">
+                        <h2 class="text-center">Adding responsive column classes</h2>
+                        <img src="https://i.ibb.co/tX16bnz/responsive1.jpg"></img>
+                        <ul>
+                            <li>Here I have added 2 column classes to my divs.</li>
+                            <li>The first class <span class="mono">col-12</span>on its own would apply 100% width to the column on all screens.</li>
+                            <li>The second class <span class="mono">col-md-6</span> applies a media query to the column for screen sizes medium size and larger.</li>
+                            <li>Note that all bootstrap media query classes work to the mobile first model.</li> 
+                            <li>This means any size you use will be applied to that size and all sizes above it, unless you add another media query class for larger screens as well</li>
+                            <li>So when we combine classes <span class="mono">col-12 col-md-6</span> on two columns in the same row,
+                            this results in each column appearing as full width on mobile screens (one on top of the other), and half width on medium screens and larger (next to each other)</li>
+                        </ul>
+                        <p>Change the width of your browser screen to see how the columns width responds</p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-2 columns-column b-grey1">
-                        <p>col-2</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3 columns-column b-grey2">
-                        <p>col-3</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 columns-column b-grey3">
-                        <p>col-4</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-5 columns-column b-grey4">
-                        <p>col-5</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 columns-column b-grey5">
-                        <p>col-6</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-7 columns-column b-grey6">
-                        <p>col-7</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-8 columns-column b-grey7">
-                        <p>col-8</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-9 columns-column b-grey8">
-                        <p>col-9</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 columns-column b-grey9">
-                        <p>col-10</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-11 columns-column b-grey10">
-                        <p>col-11</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 columns-column b-white">
+                    <div class="col-12 col-md-6 basics-column">
                         <p>col-12</p>
+                        <p>col-md-6</p>
+                    </div>
+                    <div class="col-12 col-md-6 basics-column">
+                        <p>col-12</p>
+                        <p>col-md-6</p>
                     </div>
                 </div>
             </div>
+            
         </div>
         <section class="structure-section">
             <div class="container-fluid my-3">
