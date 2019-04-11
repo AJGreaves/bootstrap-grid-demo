@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+	<title>Bootstrap grid demo</title>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> 
+		<button
+			class="navbar-toggler"
+			type="button"
+			data-toggle="collapse"
+			data-target="#navbarCollapse"
+			aria-controls="navbarCollapse"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-nav ml-auto text-uppercase">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Essentials</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="containers-rows.html">Containers & Rows</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="columns.html">Columns</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="screen-sizes.html">Screen sizes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="spacing.html">Spacing</a>
+				</li>
+			</ul>
+		</div>
+	</nav> 
+	
+		<!-- Bootstrap essentials -->
+	<main>
+		<section class="wrapper">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10 text-left">
+						<header>
+							<h1 class="text-center mt-4">Containers & Rows</h1>
+						</header>
+						<ul>
+							<li>Containers and rows only have width properties.</li>
+							<li>They have no height of their own.</li>
+							<li>Their height is determined by the height of their columns content.</li>
+						</ul>
+						<h2 class="text-center mt-5">Containers</h2>
+						<ul>
+						    <li>There are two container classes in the bootstrap library</li>
+						    <ol>
+						        <li>container</li>
+						        <li>container-fluid</li>
+						    </ol>
+						    <li>The difference between these two classes is the width of the screen that the container takes up</li>
+						    <li>The width of a <span class="mono">container</span> often does not take up the whole width of the screen</li>
+						    <li>It usually leaves a lot of margin to the sides depending on the screen size</li>
+						    <li>The width of a <span class="mono">container-fluid</span> is always 100% of the width of the screen</li>
+						    <li>Containers can be nested inside other elements, in this case their width will be relative to the width of the element they are inside.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container mt-3 basics-container b-grey3 text-white">
+				<div class="row">
+					<div class="col-12 add-height">
+						<p>container</p>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid mt-3 basics-container b-grey5">
+				<div class="row">
+					<div class="col-12 add-height">
+						<p>container-fluid</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="structure-section">
+			<div class="container-fluid my-3">
+				<div class="row">
+					<div class="col">
+						<h2>Structuring your grid code</h2>
+						<p class="structure-p">Nesting your containers, rows and columns correctly.</p>
+						<img src="https://i.ibb.co/dpLnDZg/essentials1.jpg"></img>
+						<p class="structure-p">You can have multiple columns within a row.</p>
+						<img src="https://i.ibb.co/nzBTtbz/essentials2.jpg"></img>
+						<p class="structure-p">You can have multiple rows within a container.</p>
+						<img src="https://i.ibb.co/NZppSVL/essentials3.jpg"></img>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+</html>
