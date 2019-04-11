@@ -160,60 +160,60 @@ img {
 /* background colours */
 
 .b-white {
-    background-color: black;
+    background-color: #3bb2d0;
     color: white;
 }
 
 .b-grey10 {
-    background-color: #202020;
+    background-color: #3887be;
     color: white;
 }
 
 .b-grey9 {
-    background-color: #404040;
+    background-color: #8a8acb;
     color: white;
 }
 
 .b-grey8 {
-    background-color: #585858;
+    background-color: #56b881;
     color: white;
 }
 
 .b-grey7 {
-    background-color: #696969;
+    background-color: #50667f;
     color: white;
 }
 
 .b-grey6 {
-    background-color: #808080;
+    background-color: #41afa5;
     color: white;
 }
 
 .b-grey5 {
-    background-color: #989898;
+    background-color: #f9886c;
     color: white;
 }
 
 .b-grey4 {
-    background-color: #A9A9A9;
+    background-color: #e55e5e;
     color: white;
 }
 
 .b-grey3 {
-    background-color: #BEBEBE;
-    color: black;
+    background-color: #ed6498;
+    color: white;
 }
 
 .b-grey2 {
-    background-color: #D0D0D0;
-    color: black;
+    background-color: #fbb03b;
+    color: white;
 }
 
 .b-grey1 {
-    background-color: #DCDCDC;
-    color: black;
+    background-color: #34be5b;
+    color: white;
 }
 .b-black {
-    background-color: white;
-    color: black;
+    background-color: #28353d;
+    color: white;
 }
