@@ -67,23 +67,23 @@
                 <div class="row text-left">
                     <div class="col-12">
                         <h2 class="text-center">Adding responsive column classes</h2>
-                        <img src="https://i.ibb.co/tX16bnz/responsive1.jpg"></img>
+                        <img src="https://i.ibb.co/SfXNK1j/responsive1.jpg"></img>
                         <ul>
                             <li>Here I have added 2 column classes to my divs.</li>
                             <li>The first class <span class="mono">col-12</span>on its own would apply 100% width to the column on all screens.</li>
                             <li>The second class <span class="mono">col-md-6</span> applies a media query to the column for screen sizes medium size and larger.</li>
                             <li>Note that all bootstrap media query classes work to the mobile first model.</li> 
                             <li>This means any size you use will be applied to that size and all sizes above it, unless you add another media query class for larger screens as well</li>
-                            <li>So when we combine classes <span class="mono">col-12 col-md-6</span> on two columns in the same row,
+                            <li>So when we apply both classes <span class="mono">col-12 col-md-6</span> on two columns in the same row,
                             this results in each column appearing as full width on mobile screens (one on top of the other), and half width on medium screens and larger (next to each other)</li>
                         </ul>
                         <p>Change the width of your browser screen to see how the columns width responds</p>
                     </div>
-                    <div class="col-12 col-md-6 basics-column">
+                    <div class="col-12 col-md-6 basics-column text-center">
                         <p>col-12</p>
                         <p>col-md-6</p>
                     </div>
-                    <div class="col-12 col-md-6 basics-column">
+                    <div class="col-12 col-md-6 basics-column text-center">
                         <p>col-12</p>
                         <p>col-md-6</p>
                     </div>
@@ -150,6 +150,24 @@
             </div>
         </section>
     </main>
+    <footer class="bg-secondary mt-5 p-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-white">
+                    <h3>Developed by Anna Greaves 2019</h3>
+                    <a href="https://github.com/AJGreaves" target="_blank" aria-label="Find me on GitHub" rel="noopener">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                    <a href="https://code-institute-room.slack.com/messages/DF89S323B/" target="_blank" aria-label="Find me on Slack" rel="noopener">
+                    <i class="fab fa-slack"></i>
+                    </a>
+                    <a href="https://www.facebook.com/a.gilhespy" target="_blank" aria-label="Find me on Facebook" rel="noopener">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
