@@ -12,6 +12,14 @@ body {
     color: black;
 }
 
+.faded {
+    color: #808080;
+}
+
+.bold {
+    font-weight: 900;
+}
+
 h1 {
     font-family: 'Caveat Brush', cursive;
     font-size: 2.7rem;
@@ -159,61 +167,75 @@ img {
 
 /* background colours */
 
-.b-white {
-    background-color: #3bb2d0;
+.bgcolor1 {
+    background-color: #008eaa;
     color: white;
 }
 
-.b-grey10 {
-    background-color: #3887be;
+.bgcolor2 {
+    background-color: #0077c8;
     color: white;
 }
 
-.b-grey9 {
-    background-color: #8a8acb;
+.bgcolor3 {
+    background-color: #a51890;
     color: white;
 }
 
-.b-grey8 {
-    background-color: #56b881;
+.bgcolor4 {
+    background-color: #da1884;
     color: white;
 }
 
-.b-grey7 {
-    background-color: #50667f;
+.bgcolor5 {
+    background-color: #e4002b;
     color: white;
 }
 
-.b-grey6 {
-    background-color: #41afa5;
+.bgcolor6 {
+    background-color: #fe5000;
     color: white;
 }
 
-.b-grey5 {
-    background-color: #f9886c;
+.bgcolor7 {
+    background-color: #efdf00;
     color: white;
 }
 
-.b-grey4 {
-    background-color: #e55e5e;
+.bgcolor8 {
+    background-color: #009f4d;
     color: white;
 }
 
-.b-grey3 {
-    background-color: #ed6498;
+.bgcolor9 {
+    background-color: #00205b;
     color: white;
 }
 
-.b-grey2 {
-    background-color: #fbb03b;
+.bgcolor10 {
+    background-color: #005670;
     color: white;
 }
 
-.b-grey1 {
-    background-color: #34be5b;
+.bgcolor11 {
+    background-color: #4298b5;
     color: white;
 }
-.b-black {
-    background-color: #28353d;
+.bgcolor12 {
+    background-color: #74d2e7;
     color: white;
 }
+
+/* Media Queries */
+@media screen and (max-width: 767.9px) { 
+    .col-12.col-md-6 {
+        background-color: #74d2e7;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .col-12.col-md-6 {
+        background-color: #fe5000;
+    }
+}
+
