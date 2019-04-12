@@ -41,6 +41,10 @@ h3 {
     color: red;
 }
 
+.black-text {
+    color: black;
+}
+
 li, p {
     font-size: 1.5rem;
 }
@@ -236,12 +240,27 @@ img {
 }
 
 
+
 /* Media Queries */
 /* extra small devices and down */
 @media screen and (max-width: 575.9px) {
     .faded,
     .bold {
         font-size: 1rem;
+    }
+    .col-6.col-sm-8.resp-col,
+    .col-6.col-sm-4.resp-col{
+        background-color: #fe5000;
+    }
+}
+
+/* small devices and up */
+@media screen and (min-width: 576px) {
+    .col-6.col-sm-8.resp-col {
+        background-color: #009f4d;
+    }
+    .col-6.col-sm-4.resp-col {
+        background-color: #da1884;
     }
 }
 
