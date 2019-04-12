@@ -22,8 +22,8 @@
                     <a class="nav-link" href="index.html">Essentials</a>
                 </li>
                 <li class="nav-item">
-					<a class="nav-link" href="containers-rows.html">Containers & Rows</a>
-				</li>
+                    <a class="nav-link" href="containers-rows.html">Containers & Rows</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="columns.html">Columns</a>
                 </li>
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="wrapper m-0">
-            
+
             <div class="container-fluid">
                 <div class="row text-left">
                     <div class="col-12">
@@ -72,10 +72,10 @@
                             <li>Here I have added 2 column classes to my divs.</li>
                             <li>The first class <span class="mono">col-12</span> on its own would apply 100% width to the column on all screens.</li>
                             <li>The second class <span class="mono">col-md-6</span> applies a media query to the column for screen sizes medium size and larger.</li>
-                            <li>Note that all bootstrap media query classes work to the mobile first model.</li> 
+                            <li>Note that all bootstrap media query classes work to the mobile first model.</li>
                             <li>This means any size you use will be applied to that size and all sizes above it, unless you add another media query class for larger screens as well</li>
-                            <li>So when we apply both classes <span class="mono">col-12 col-md-6</span> on two columns in the same row,
-                            this results in each column appearing as full width on mobile screens (one on top of the other), and half width on medium screens and larger (next to each other)</li>
+                            <li>So when we apply both classes <span class="mono">col-12 col-md-6</span> on two columns in the same row, this results in each column appearing as full width on mobile screens (one on top of the other), and half width on medium
+                                screens and larger (next to each other)</li>
                         </ul>
                         <p>Change the width of your browser screen to see how the columns width responds</p>
                     </div>
@@ -97,66 +97,60 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        <section class="structure-section">
-            <div class="container-fluid my-3">
-                <div class="row">
-                    <div class="col-12 pb-2">
-                        <h2>Displaying columns together</h2>
-                        <p class="structure-p">Columns will display next to each other, until their total width adds up to 12</p>
+        <div class="wrapper m-0">
+            <div class="container-fluid">
+                <div class="row text-left">
+                    <div class="col-12">
+                        <h2 class="text-center">Other responsive columns in action</h2>
+                        <p>Change the width of your browser screen to see how the columns width responds</p>
                     </div>
-                    <div class="col-9 columns-column b-grey8">
-                        <p>col-9</p>
+                    <div class="col-12 basics-column text-center">
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <p class="mb-1"> Active breakpoints: </p>
+                                </div>
+                                <div class="col-12 col-sm-2">
+                                    <div class="d-block d-sm-none">
+                                        <span class="bold">Default</span> 
+                                    </div>
+                                    <div class="d-none d-sm-block">
+                                        <span class="faded">Default</span> 
+                                    </div>
+                                </div>   
+                                <div class="col-3 col-sm-2">
+                                    <div class="d-none d-sm-block d-md-none">
+                                        <span class="bold mono">sm</span> 
+                                    </div>
+                                    <div class="d-none d-md-block">
+                                        <span class="faded mono">sm</span> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-3 columns-column b-grey2">
-                        <p>col-3</p>
+                    <div class="col-12 col-lg-4 basics-column text-center">
+                        <p class="d-block d-lg-none">
+                            <span class="bold mono">col-12</span> <span class="faded mono">col-lg-4</span>
+                        </p>
+                        <p class="d-none d-lg-block">
+                            <span class="faded mono">col-12</span> <span class="bold mono">col-lg-4</span>
+                        </p>
                     </div>
-                    <div class="col-2 columns-column b-grey1">
-                        <p>col-2</p>
+                    <div class="col-12 col-lg-4 basics-column text-center">
+                        <p class="d-block d-lg-none">
+                            <span class="bold mono">col-12</span> <span class="faded mono">col-lg-4</span>
+                        </p>
+                        <p class="d-none d-lg-block">
+                            <span class="faded mono">col-12</span> <span class="bold mono">col-lg-4</span>
+                        </p>
                     </div>
-                    <div class="col-8 columns-column b-grey7">
-                        <p>col-8</p>
-                    </div>
-                    <div class="col-2 columns-column b-grey1">
-                        <p>col-2</p>
-                    </div>
-                    <div class="col-4 columns-column b-grey3">
-                        <p>col-4</p>
-                    </div>
-                    <div class="col-4 columns-column b-grey3">
-                        <p>col-4</p>
-                    </div>
-                    <div class="col-4 columns-column b-grey3">
-                        <p>col-4</p>
-                    </div>
-                    <div class="col-3 columns-column b-grey2">
-                        <p>col-3</p>
-                    </div>
-                    <div class="col-6 columns-column b-grey5">
-                        <p>col-6</p>
-                    </div>
-                    <div class="col-3 columns-column b-grey2">
-                        <p>col-3</p>
-                    </div>
-                    <div class="col-6 columns-column b-grey5">
-                        <p>col-6</p>
-                    </div>
-                    <div class="col-4 columns-column b-grey3">
-                        <p>col-4</p>
-                    </div>
-                    <div class="col-2 columns-column b-grey1">
-                        <p>col-2</p>
-                    </div>
-                    <div class="col-1 columns-column b-black">
-                        <p>col-1</p>
-                    </div>
-                    <div class="col-11 columns-column b-grey10">
-                        <p>col-11</p>
-                    </div>
+
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer class="bg-secondary mt-5 p-3">
         <div class="container-fluid">

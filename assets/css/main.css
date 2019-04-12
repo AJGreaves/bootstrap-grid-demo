@@ -59,6 +59,12 @@ li, p {
     font-size: 1rem;
 }
 
+/* breakpoints visuals */
+
+.breakpoints div {
+    display: inline;
+}
+
 /* social icons */
 
 .fab{
