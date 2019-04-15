@@ -148,6 +148,17 @@ p {
     margin-bottom: 0.5rem;
 }
 
+.spacing-col {
+    border: 1px solid #000;
+    padding: 0.5rem;
+    background-color: #008eaa;
+    color: white;
+}
+
+.spacing-row {
+    background-color: #DCDCDC;
+}
+
 .my-column {
     height: 100px;
     border: 2px solid #000;
