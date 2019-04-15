@@ -46,7 +46,7 @@
                             <h1 class="text-center mt-4">Spacing</h1>
                         </header>
                         <ul>
-                            <li>You might have noticed in the last page, that when column widths do not add up to 12 we are left with a space on the right side of our columns</li>
+                            <li>You might have noticed in the last page, that when column widths do not add up to 12 we are left with a space on the right side of our columns.</li>
                             <li>Having your column(s) up against the left side of the screen is not great user experience most of the time.</li>
                             <li>So what can we do to fix that?</li>
                         </ul>
@@ -54,53 +54,68 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="wrapper m-0">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 text-left">
+                        <h2 class="text-center pb-2">Creating space with flex</h2>
+                        <ul>
+                            <li>We can use the <span class="mono">justify-content</span> classes</li>
+                            <li>We apply these classes to the <span class="mono bold">row</span> that our columns are contained in</li>
+                            <li>Each of these rows has 3 col-1 elements inside</li>
+                            <li>Look at the ways the different <span class="mono">justify-content</span> classes effect their layout.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <img src="https://i.ibb.co/vVxkNKD/flex1.jpg" alt="flex classes"></img>
+                    </div>
+                </div>
+                <div class="row spacing-row mb-2 justify-content-start">
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                </div>
+                <div class="row spacing-row mb-2 justify-content-end">
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                </div>
+                <div class="row spacing-row mb-2 justify-content-center">
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                </div>
+                <div class="row spacing-row mb-2 justify-content-between">
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                </div>
+                <div class="row spacing-row mb-2 justify-content-around">
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                    <div class="col-1 spacing-col">col-1</div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 text-left">
+                        <ul>
+                            <li>You can also apply the <span class="mono">sm md lg xl</span> sub-classes to these!</li>
+                            <li>For example: <span class="mono">justify-content-sm-center</span> <span class="mono">justify-content-md-around</span> <span class="mono">justify-content-xl-end</span> etc</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10 text-left">
-                    <h2 class="text-center py-3">Creating space with flex</h2>
+                    <h2 class="text-center mt-3">Further reading</h2>
                     <ul>
-                        <li>We can use the <span class="mono">justify-content</span> classes</li>
-                        <li>We apply these classes to the <span class="mono bold">row</span> that our columns are contained in</li>
-                        <li>Each of these rows has 3 col-1 elements inside</li>
-                        <li>Look at the ways the different <span class="mono">justify-content</span> classes effect their layout.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-12">
-                    <img src="https://i.ibb.co/vVxkNKD/flex1.jpg" alt="flex classes"></img>
-                </div>
-            </div>
-            <div class="row spacing-row mb-2 justify-content-start">
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-            </div>
-            <div class="row spacing-row mb-2 justify-content-end">
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-            </div>
-            <div class="row spacing-row mb-2 justify-content-center">
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-            </div>
-            <div class="row spacing-row mb-2 justify-content-between">
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-            </div>
-            <div class="row spacing-row mb-2 justify-content-around">
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-                <div class="col-1 spacing-col">col-1</div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-12 text-left">
-                    <ul>
-                        <li>You can also apply the <span class="mono">sm md lg xl</span> sub-classes to these!</li>
-                        <li>For example: <span class="mono">justify-content-sm-center</span> <span class="mono">justify-content-md-around</span> <span class="mono">justify-content-xl-end</span> etc</li>
+                        <li>Now that you have a grasp of the basics, you can learn much more about the power of Bootstrap in their own documentation:</li>
+                        <li>Search for what you are looking for in the <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction">Bootstrap 4 documentation</a> search bar</li>
+                        <li>Bootstrap 4 documentation: <a href="https://getbootstrap.com/docs/4.3/layout/grid/">Grid system</a></li>
+                        <li>Bootstrap 4 documentation: <a href="https://getbootstrap.com/docs/4.3/utilities/flex/">Spacing</a></li>
                     </ul>
                 </div>
             </div>
