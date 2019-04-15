@@ -72,12 +72,12 @@
                             <li>Here I have added 2 column classes to my divs.</li>
                             <li>The first class <span class="mono">col-12</span> on its own would apply 100% width to the column on all screens.</li>
                             <li>The second class <span class="mono">col-md-6</span> applies a media query to the column for screen sizes medium size and larger.</li>
-                            <li>Note that all bootstrap media query classes work to the mobile first model.</li>
+                            <li class="bold">Note that all bootstrap media query classes work to the mobile first model.</li>
                             <li>This means any size you use will be applied to that size and all sizes above it, unless you add another media query class for larger screens as well</li>
                             <li>So when we apply both classes <span class="mono">col-12 col-md-6</span> on two columns in the same row, this results in each column appearing as full width on mobile screens (one on top of the other), and half width on medium
                                 screens and larger (next to each other)</li>
                         </ul>
-                        <p>Change the width of your browser screen to see how the columns width responds</p>
+                        <p class="text-center">Change the width of your browser screen to see how the columns width responds</p>
                     </div>
                     <div class="col-12 col-md-6 basics-column text-center">
                         <p class="d-none d-md-block">
@@ -113,10 +113,10 @@
                             </div>
                             <div class="col-12">
                                 <div class="d-block d-sm-none">
-                                    <span class="bold">Default</span>
+                                    <p class="bold">Default</p>
                                 </div>
                                 <div class="d-none d-sm-block">
-                                    <span class="faded">Default</span>
+                                    <p class="faded">Default</p>
                                 </div>
                             </div>
                             <div class="col-3 d-none d-sm-block">
@@ -256,7 +256,7 @@
                     <ul class="text-left">
                         <li>You can apply more than 2 column classes to the same element.</li>
                         <li>The ones for the screen size larger will always override the ones below.</li>
-                        <li>Remember to think mobile first, smallest size will apply to all above it, unless overridden with a new class for a larger screen.</li>
+                        <li>Remember to think mobile first: The smallest size will apply to all above it, unless overridden with a new class for a larger screen.</li>
                     </ul>
                 </div>
             </div>

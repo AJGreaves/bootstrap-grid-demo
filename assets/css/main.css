@@ -107,7 +107,7 @@ p {
 }
 
 .add-height {
-    height: 200px;
+    height: 100px;
 }
 
 .basics-row {
@@ -123,7 +123,6 @@ p {
 .basics-column {
     font-size: 1.5rem;
     padding: 1rem;
-    height: 150px;
     background-color: white;
     color: black;
     border: 2px solid #000;
@@ -279,7 +278,7 @@ a:hover {
     }
     li,
     p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
