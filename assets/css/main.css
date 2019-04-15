@@ -134,17 +134,18 @@ p {
 }
 
 .mini-col {
-    height: 100px;
     border: 2px solid #000;
     padding: 1rem;
     background-color: white;
 }
 
 .resp-col {
-    height: 100px;
-    height: 100px;
     border: 2px solid #000;
     padding: 1rem;
+}
+
+.resp-col p {
+    margin-bottom: 0.5rem;
 }
 
 .my-column {
@@ -250,10 +251,6 @@ img {
 /* extra small devices and down */
 
 @media screen and (max-width: 575.9px) {
-    .faded,
-    .bold {
-        font-size: 1rem;
-    }
     .col-6.col-sm-8.resp-col,
     .col-6.col-sm-4.resp-col {
         background-color: #fe5000;
@@ -271,10 +268,12 @@ img {
     }
     li,
     p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
+
+/*col-12 col-md-4 col-lg-5 resp-col*/
 /* small devices and up */
 
 @media screen and (min-width: 576px) {
@@ -291,7 +290,8 @@ img {
 @media screen and (max-width: 767.9px) {
     .col-12.col-md-6,
     .col-12.col-md-5.resp-col,
-    .col-12.col-md-7.resp-col{
+    .col-12.col-md-7.resp-col,
+    .col-12.col-md-4.col-lg-5.resp-col{
         background-color: #74d2e7;
     }
 }
@@ -308,6 +308,9 @@ img {
     .col-12.col-md-7.resp-col {
         background-color: #efdf00;
     }
+    .col-12.col-md-4.col-lg-5.resp-col{
+        background-color: #da1884;
+    }
 }
 
 /* Medium devices and down */
@@ -323,6 +326,9 @@ img {
 @media screen and (min-width: 992px) {
     .col-12.col-lg-4.resp-col {
         background-color: #da1884;
+    }
+    .col-12.col-md-4.col-lg-5.resp-col{
+        background-color: #e4002b;
     }
 }
 
