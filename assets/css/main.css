@@ -23,19 +23,19 @@ body {
 
 h1 {
     font-family: 'Caveat Brush', cursive;
-    font-size: 45px;
+    font-size: 2.7rem;
 }
 
 h2 {
     font-family: 'Caveat Brush', cursive;
-    font-size: 40px;
+    font-size: 2.2rem;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #fafafa;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .black-text {
@@ -45,7 +45,7 @@ h3 {
 
 li,
 p {
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 .structure-p {
@@ -56,11 +56,11 @@ p {
 /* navigation */
 
 .nav-item {
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .columns-column p {
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 /* breakpoints visuals */
@@ -68,7 +68,7 @@ p {
 /* social icons */
 
 .fab {
-    font-size: 35px;
+    font-size: 2rem;
     color: #ffffff;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     transition: all 0.2s ease-in-out 0.2s;
@@ -265,6 +265,21 @@ a:hover {
     .col-6.col-sm-8.resp-col,
     .col-6.col-sm-4.resp-col {
         background-color: #fe5000;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+    li,
+    p {
+        font-size: 1rem;
     }
 }
 
