@@ -24,11 +24,15 @@ body {
 h1 {
     font-family: 'Caveat Brush', cursive;
     font-size: 2.7rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 h2 {
     font-family: 'Caveat Brush', cursive;
     font-size: 2.2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 h3 {
