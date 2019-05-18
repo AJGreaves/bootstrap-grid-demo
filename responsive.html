@@ -65,21 +65,41 @@
         <div class="wrapper m-0">
 
             <div class="container-fluid">
-                <div class="row text-left">
+                <div class="row justify-content-center text-left">
                     <div class="col-12">
                         <h2 class="text-center">Adding responsive column classes</h2>
-                        <img src="https://i.ibb.co/SfXNK1j/responsive1.jpg"></img>
                         <ul>
-                            <li>Here I have added 2 column classes to my divs.</li>
+                            <li>In the code below I have added 2 column classes to each of my divs.</li>
                             <li>The first class <span class="mono">col-12</span> on its own would apply 100% width to the column on all screens.</li>
                             <li>The second class <span class="mono">col-md-6</span> applies a media query to the column for screen sizes medium size and larger.</li>
                             <li class="bold">Note that all bootstrap media query classes work to the mobile first model.</li>
-                            <li>This means any size you use will be applied to that size and all sizes above it, unless you add another media query class for larger screens as well</li>
+                            <li>This means any size you use will be applied to that size and all sizes above it, unless you add another media query class for larger screens after it.</li>
                             <li>So when we apply both classes <span class="mono">col-12 col-md-6</span> on two columns in the same row, this results in each column appearing as full width on mobile screens (one on top of the other), and half width on medium
                                 screens and larger (next to each other)</li>
                         </ul>
-                        <p class="text-center">Change the width of your browser screen to see how the columns width responds</p>
                     </div>
+                    <div class="col-sm-12 col-md-8">
+                        <!-- Example code block to show multiple rows in a container -->
+                        <pre>
+							<code class="language-markup">
+								<script type="prism-html-markup">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6"></div>
+            <div class="col-12 col-md-6"></div>
+        </div>
+    </div>
+								</script>
+							</code>
+						</pre>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <p class="text-center">Change the width of your browser window to see how the columns width responds</p>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-12 col-md-6 basics-column text-center">
                         <p class="d-none d-md-block">
                             <span class="faded mono">col-12</span> <span class="bold mono">col-md-6</span>
