@@ -5,12 +5,14 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<link rel="stylesheet" href="assets/css/prism.css">
+
 	<link rel="stylesheet" href="assets/css/main.css" type="text/css" />
 	<title>Bootstrap 4 grid demo | Essentials</title>
 </head>
 
 <body>
-	
+
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,7 +97,26 @@
 					<div class="col mb-4">
 						<h2>Structuring your grid code</h2>
 						<p class="structure-p">Nesting your containers, rows and columns correctly.</p>
-						<img src="https://i.ibb.co/dpLnDZg/essentials1.jpg"></img>
+						<div class="row justify-content-center">
+							<div class="col-sm-12 col-md-8">
+
+								<pre>
+									<code class="language-markup">
+        								<script type="prism-html-markup">
+<!-- The basic structure of the bootstrap grid -->
+<div class="container">
+	<div class="row">
+		<div class="col">
+			Your content goes here
+		</div>
+	</div>
+</div>
+										</script>
+									</code>
+								</pre>
+
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -122,6 +143,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/prism.js"></script>
 </body>
 
 </html>
