@@ -119,6 +119,10 @@ hr {
     color: #3eb991;
 }
 
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
 /* containers */
 
 .wrapper {
