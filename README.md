@@ -34,7 +34,7 @@ The goals of this website are:
 * Each part of the bootstrap grid is broken down and explained carefully and clearly before moving on to the next element needed. 
 * Each element is explained using a combination of text, code blocks and built-in visual demonstrations of the grid for the user to interact with themselves. 
 
-### Client stories
+### User stories
 1. As a visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
 2. As a new developer I want the content to be understandable for the level of knowlege that I have about html and css, so that I can follow, learn and implement the learning myself. 
 3. As a new developer I want to be able see how each of the elements of code interact and what the results of that code are. 
@@ -46,7 +46,7 @@ The goals of this website are:
 
 ### Design Choices
 
-The overall feel of the site is functional uncluttered and minimalist. As the goal is to educate while giving a clean uncluttered space to learn in.
+The overall feel of the site is functional, uncluttered and minimalist. As the goal is to educate while giving a clean uncluttered space to learn in.
 
 **Fonts**
 
