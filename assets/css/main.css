@@ -19,6 +19,11 @@ h1 {
     font-size: 2.7rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
+    text-shadow: 1.5px 1.5px #9c9c9c99;
+}
+
+.bg-secondary h1 {
+    text-shadow: 2px 2px #000;
 }
 
 h2 {
@@ -26,6 +31,7 @@ h2 {
     font-size: 2.2rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
+    text-shadow: 1.5px 1.5px #9c9c9c99;
 }
 
 h3 {
@@ -61,12 +67,6 @@ p.spacing-text {
 
 /* paddings and margins */
 
-container,
-row {
-    padding: 0;
-    margin: 0;
-}
-
 pre.language-markup {
     margin: 0;
     padding: 0 1em;
@@ -83,7 +83,7 @@ li.nav-item {
 }
 
 ul, ol {
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 .structure-p {
