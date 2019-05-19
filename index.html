@@ -3,6 +3,10 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"  />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="description" content="Bootstrap demo site">
+	<meta name="author" content="Anna Greaves">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 	<link rel="stylesheet" href="assets/css/prism.css">
@@ -15,8 +19,11 @@
 
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+		<a class="navbar-brand mr-1" href="index.html">
+				<img src="assets/images/logo.gif" height="40" alt="AG logo" title="AG logo">
+			</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav ml-auto text-uppercase">
@@ -51,8 +58,7 @@
 						<ul>
 							<li>The Bootstrap grid is what we use to structure the layout of our website. It tells the browser where to put different elements on the page.</li>
 							<li>And crucially it can tell the browser to arrange elements in different ways depending on the screen size it is rendering on.</li>
-							<li>Bootstrap styling is implemented using the bootstrap library of pre-written css, 
-							which is accessed by linking to their library and then using the right bootstrap class names in your html.</li>
+							<li>Bootstrap styling is implemented using the bootstrap library of pre-written css, which is accessed by linking to their library and then using the right bootstrap class names in your html.</li>
 							<li>To use the bootstrap grid, you always need 3 types of bootstrap grid classes:</li>
 							<ol>
 								<li>Container</li>
@@ -61,9 +67,9 @@
 							</ol>
 							<li>Each of these elements rely on the others to work correctly.</li>
 							<li>Your content goes in the columns.
-							<li>You shouldn't have a column without a row,</li>
-							<li>And you shouldn't have a row without a container</li>
-							<li class="bold">Getting them in the wrong order, or missing out, will mess with your layout!</li>
+								<li>You shouldn't have a column without a row,</li>
+								<li>And you shouldn't have a row without a container</li>
+								<li class="bold">Getting them in the wrong order, or missing out, will mess with your layout!</li>
 						</ul>
 					</div>
 				</div>
@@ -101,7 +107,7 @@
 						<h2>Structuring your grid code</h2>
 						<p class="structure-p">Nesting your containers, rows and columns correctly.</p>
 						<div class="row no-gutters justify-content-center">
-							<div class="col-sm-12 col-md-8">
+							<div class="col-sm-12 col-lg-8">
 								<!-- Example code block to show The basic structure of the bootstrap grid -->
 								<pre>
 									<code class="language-markup">
@@ -133,13 +139,13 @@
 					<a href="https://github.com/AJGreaves" target="_blank" aria-label="Find me on GitHub" rel="noopener">
                         <i class="fab fa-github-alt"></i>
                     </a>
-                    <a href="https://www.facebook.com/a.gilhespy" target="_blank" aria-label="Find me on Facebook" rel="noopener">
+					<a href="https://www.facebook.com/a.gilhespy" target="_blank" aria-label="Find me on Facebook" rel="noopener">
                     <i class="fab fa-facebook"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/anna-greaves-923474186/" target="_blank" aria-label="Find me on LinkedIn" rel="noopener">
+					<a href="https://www.linkedin.com/in/anna-greaves-923474186/" target="_blank" aria-label="Find me on LinkedIn" rel="noopener">
                     <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://code-institute-room.slack.com/messages/DF89S323B/" target="_blank" aria-label="Find me on Slack" rel="noopener">
+					<a href="https://code-institute-room.slack.com/messages/DF89S323B/" target="_blank" aria-label="Find me on Slack" rel="noopener">
                     <i class="fab fa-slack"></i>
                     </a>
 				</div>
