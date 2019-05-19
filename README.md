@@ -6,14 +6,21 @@
 [View website in GitHub Pages](https://ajgreaves.github.io/bootstrap-grid-demo/)
 </div>
 
-_introduction_
+A website built to demonstrate how to use the bootstrap grid to structure the layout of a website. Providing visual examples of how the grid should be used 
+and the power of its responsive column classes. 
 
 The goals of this website are:
-* _goal_
+* To teach in a way that assumes only basic knowlege about html and css.
+* To clearly demonstrate every element needed to use the bootstrap grid correctly.
+* To help beginner developers understand the essential elements needed when using the bootstrap grid and how each of them work together.
+* To give a strong visual understanding to how the bootstrap code is implemented on the screen.
+* To demonstrate how the responsive column classes work on different screen sizes. 
+* To aid in making this complex and powerful tool easier to understand and use. 
  
 ## UX
 
 ### This website is designed for
+* 
 
 ### Visitors to this website are searching for:
 
