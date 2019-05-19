@@ -114,6 +114,10 @@ hr {
     border-bottom: 1px solid #ffffff;
 }
 
+ul, ol {
+    padding-left: 1rem;
+}
+
 /* social icons */
 
 .fab {
