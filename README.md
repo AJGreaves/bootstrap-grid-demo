@@ -7,7 +7,8 @@
 </div>
 
 A website built to demonstrate how to use the bootstrap grid to structure the layout of a website. Providing visual examples of how the grid should be used 
-and the power of its responsive column classes. 
+and the power of its responsive column classes. Originally made as an demo site for my fellow Code Institue students 
+on a conference call I hosted as lead student for the User Centric Frontend Development module within the Full Stack Software Development course. 
 
 The goals of this website are:
 * To teach in a way that assumes only basic knowlege about html and css.
@@ -19,21 +20,58 @@ The goals of this website are:
  
 ## UX
 
-### This website is designed for
-* 
+### Users
+* For software developers with basic understanding of html and css. 
+* For any developers who wish to gain a quick understanding of how to use and implement the bootstrap grid. 
+* For my fellow Code Institue students preparing to work on their first User Centric Frontend Development milestone project. 
 
 ### Visitors to this website are searching for:
+* An easy way to understand a sometimes complex topic.
+* Clear demonstration of the elements needed to use the bootstrap grid. 
+* Easy to understand, visual, learnable content. 
 
 ### This project is the best way to help them achieve these things because:
-* _reasons_
+* Each part of the bootstrap grid is broken down and explained carefully and clearly before moving on to the next element needed. 
+* Each element is explained using a combination of text, code blocks and built-in visual demonstrations of the grid for the user to interact with themselves. 
 
 ### Client stories
-1. _As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently._
+1. As a visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+2. As a new developer I want the content to be understandable for the level of knowlege that I have about html and css, so that I can follow, learn and implement the learning myself. 
+3. As a new developer I want to be able see how each of the elements of code interact and what the results of that code are. 
+4. As a new developer I want to understand how screen size breakpoints work and how the bootstrap grid uses them, so I am no longer confused by it. 
+5. As user, I want to be led through the site in a logical order, so that I can build up knowlege that lasts. 
+6. As a new developer, I want to learn more about who created this website, so that I can contact them if I have questions. 
+7. As a potential collegue or employer, I want to see the repository for this project, so I can see how the developer worked on it. 
+8. As a user, I want to be able to connect with this developer on social media. 
 
+### Design Choices
 
+The overall feel of the site is functional uncluttered and minimalist. As the goal is to educate while giving a clean uncluttered space to learn in.
+
+**Fonts**
+
+- The primary font **Montserrat** was chosen for its clear easy to read lettering, and was used for all the main areas of text.
+
+- The secondary font **Caveat Brush** was chosen to complement the primary font nicely in style because it is slightly more compact and has a handwriting look to it while still being easy to read.
+
+- The tertiary font **Montserrat** was used for all code within the text, because it is a monospace font and is what developers use when writing code. 
+
+**Icons**
+
+- All social media icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
+
+**Colours**
+
+- The primary colours for this website are grey and white, chosen to keep the space unclutterd and clear. 
+- The colours chosen to demonstrate the different column widths within in the grid were picked for their contrast from each other while still being appealing to the eye when put together.
+Consistently using the same colours for the same width columns helps reinforce the learning about how they work together. 
+
+**Styling**
+
+- Styling was kept to a minimum in order to keep the site clean and functional. A few subtle shadows were added to give site elements depth, but beyond that the decision to 
+keep styling minimal was a deliberate choice. 
 
 ## Features
-
 
 ### Existing Features
 
@@ -54,6 +92,7 @@ _features on all pages_
 - GDPR compliant pop-up screen - Allows all new visitors to the website to 
 approve or deny the processing of their personal data. Ensures the business 
 complies with the EU data protection law. - Javascript Needed
+- Create a youtube video of myself demonstrating the site and explaining the different aspects. Add this link to the website too. 
 
 ## Technologies Used
 
