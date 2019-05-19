@@ -66,6 +66,11 @@ row {
     margin: 0;
 }
 
+pre.language-markup {
+    margin: 0;
+    padding: 0 1em;
+}
+
 li,
 p {
     font-size: 1.5rem;
@@ -374,6 +379,9 @@ a:hover {
     }
     .col-12.col-md-4.col-lg-5.resp-col {
         background-color: #da1884;
+    }
+    pre.language-markup {
+    padding: 0 3em;
     }
 }
 
